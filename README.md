@@ -30,5 +30,11 @@ It will also print the overall accuracy
 ```
 python src/test.py
 ```
+### Results
+
+| Model |  Center  | 
+|:-----|:---------:|
+| Closest embedding + Finetuned LM    |  35%  |
+| TFIDF Retriever   + Finetuned LM    |  55%  |
 
 ___
