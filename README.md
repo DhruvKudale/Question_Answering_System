@@ -32,7 +32,7 @@ python src/test.py
 ```
 ### Results
 
-| Model |  Center  | 
+| Model |  Accuracy %  | 
 |:-----|:---------:|
 | Closest embedding + Finetuned LM    |  35%  |
 | TFIDF Retriever   + Finetuned LM    |  55%  |
