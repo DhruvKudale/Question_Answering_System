@@ -32,8 +32,9 @@ python src/test.py
 ```
 ### Results
 
-| Model |  Accuracy %  | 
+| Model Combination |  Accuracy % for Top 10 Predictions | 
 |:-----|:---------:|
+| Closest embedding + Finetuned Roberta Squad2 Tiny Model (LM)    |  25%  |
 | Closest embedding + Finetuned Roberta Squad2 Base Model (LM)    |  35%  |
 | TFIDF Retriever   + Finetuned Roberta Squad2 Tiny Model (LM)    |  45%  |
 | TFIDF Retriever   + Finetuned Roberta Squad2 Base Model (LM)    |  55%  |
