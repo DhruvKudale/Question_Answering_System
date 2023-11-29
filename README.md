@@ -34,7 +34,8 @@ python src/test.py
 
 | Model |  Accuracy %  | 
 |:-----|:---------:|
-| Closest embedding + Finetuned LM    |  35%  |
-| TFIDF Retriever   + Finetuned LM    |  55%  |
+| Closest embedding + Finetuned Roberta Squad2 Base Model (LM)    |  35%  |
+| TFIDF Retriever   + Finetuned Roberta Squad2 Tiny Model (LM)    |  45%  |
+| TFIDF Retriever   + Finetuned Roberta Squad2 Base Model (LM)    |  55%  |
 
 ___
